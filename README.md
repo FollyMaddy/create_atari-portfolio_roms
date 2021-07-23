@@ -12,13 +12,15 @@ Paste your .zip game files into the same directory as the script.
 
 Use the terminal.
 
-- Go to the script directory.
+- Go to the script directory
 
-- Be sure the script is executable.
+- Be sure the script is executable with 
+ 
+`chmod u+x 123-pofo-roms.sh`
 
 - Run it with ( It will create .rom files from all .zip files ):
 
-sudo ./123-pofo-roms.sh
+`sudo ./123-pofo-roms.sh`
 
 - Copy these .rom files to the ~/RetroPie/roms/pofo directory or your specific mame rom directory
 

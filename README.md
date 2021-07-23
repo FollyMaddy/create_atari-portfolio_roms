@@ -28,6 +28,8 @@ Use the terminal.
 
 - Copy these .rom files to the ~/RetroPie/roms/pofo directory or your specific mame rom directory
 
-- Now you can run the games with mame
+- Now you can run the games with 
+
+`mame pofo -cart filename.rom`
 
 Good luck !

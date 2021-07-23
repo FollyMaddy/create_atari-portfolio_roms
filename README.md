@@ -12,18 +12,16 @@ Paste your .zip game files into the same directory as the script.
 
 Use the terminal.
 
-Go to that script directory.
+- Go to the script directory.
 
-Be sure the script is executable.
+- Be sure the script is executable.
 
-Run it with 
+- Run it with ( It will create .rom files from all .zip files ):
 
 sudo ./123-pofo-roms.sh
 
-Now it will create .rom files from all .zip files.
+- Copy these .rom to the ~/RetroPie/roms/pofo directory or your specific mame rom directory
 
-Copy these .rom to the ~/RetroPie/roms/pofo directory.
-
-Now you can run the games.
+- Now you can run the games with mame
 
 Good luck !

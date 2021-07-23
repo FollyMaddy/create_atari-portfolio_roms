@@ -20,7 +20,7 @@ Use the terminal.
 
 sudo ./123-pofo-roms.sh
 
-- Copy these .rom to the ~/RetroPie/roms/pofo directory or your specific mame rom directory
+- Copy these .rom files to the ~/RetroPie/roms/pofo directory or your specific mame rom directory
 
 - Now you can run the games with mame
 

@@ -14,11 +14,11 @@ Use the terminal.
 
 - Go to the script directory
 
-- Be sure the script is executable with 
+- Be sure the script is executable with :
  
 `chmod u+x 123-pofo-roms.sh`
 
-- Run it with ( It will create .rom files from all .zip files ):
+- Run it with ( It will create .rom files from all .zip files ) :
 
 `sudo ./123-pofo-roms.sh`
 

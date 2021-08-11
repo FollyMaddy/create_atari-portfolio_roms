@@ -29,11 +29,6 @@ Looked for virtual parallel port things and looked into mame on how to use ports
 No real solution here.
 
 
-Edit: With the information gathered in this post I made a script for it :
-
-https://github.com/FollyMaddy/create_atari-portfolio_roms
-
-
 I found that you can add a ram card as a slot-device.
 
 Now I could format this ram device and save a file to it.
@@ -63,7 +58,7 @@ sudo apt install disktype
 I just didn't believe it at first, but you can just mount the image in linux.
 
 
-mount the image in /mnt/ if you renamed your rom/ram file to fat12.img link_how_to_mount
+mount the image in /mnt/ if you renamed your rom/ram file to fat12.img 
 
 sudo mount -o loop fat12.img /mnt/
 
@@ -78,11 +73,15 @@ sudo pcmanfm
 
 Add an autoexec.bat to /mnt/, so the rom will boot automatically from the drive "A:" , containing :
 
+---
+
 @echo off
 
 <filename_to_run>
 
-Unmount the image link_how_to_unmount
+---
+
+Unmount the image
 
 sudo umount /mnt/
 

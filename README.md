@@ -31,7 +31,7 @@ Use the terminal.
 
 - Go to the script directory.
 
-- Be sure the script is executable. 
+- Be sure the script is executable:
 
 chmod u+x 123-pofo-roms.sh
 

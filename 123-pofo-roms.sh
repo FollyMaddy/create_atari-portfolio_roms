@@ -57,5 +57,6 @@ if [[ $(ls) == *.zip* ]];then
     echo "$input" >> /mnt/autoexec.bat
   fi
   umount /mnt/
+  chown $(ls /home):$(ls /home) $(basename $zip .zip).rom
   done
 fi

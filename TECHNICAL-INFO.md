@@ -39,7 +39,7 @@ With mame it is saved here :
 
 /home/pi/RetroPie/roms/mame/nvram/pofo/ccma_ram/ccma_ram
 
-How to load it as a -cart ?
+How to load it as a -memc ?
 
 Well, I was thinking, perhaps the ram card file structure is the same as the rom file structure then I can make a .rom file of it.
 

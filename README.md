@@ -4,7 +4,7 @@
 
 In the TECHNICAL-INFO.md you can find the background about how the script works.
 
-With this information you can do the all the steps manually, if you want.
+With this information you can do all the steps manually, if you want.
 
 Use the script on your own risk !
 

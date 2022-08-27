@@ -56,7 +56,7 @@ if [[ $(ls) == *.zip* ]];then
     echo "This can be done by separating the commands with \\\n."
     echo "For example : cd <subdirectory>\\\n<program>."
     echo "You can leave the extension, if you want."
-    echo "Please enter you command(s) and program name :"
+    echo "Please enter your command(s) and/or program name :"
     read -p '' input
     echo -e "$input" >> /mnt/autoexec.bat
   fi

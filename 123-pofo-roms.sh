@@ -52,9 +52,13 @@ if [[ $(ls) == *.zip* ]];then
   else
     echo 
     echo "What filename do you want to add to the autoexec ?"
-    echo "(You can leave the extension)"
-    read -p 'filename: ' input
-    echo "$input" >> /mnt/autoexec.bat
+    echo "You can apply multiple commands if you need to."
+    echo "This can be done by separating the commands with \\\n."
+    echo "For example : cd <subdirectory>\\\n<program>."
+    echo "You can leave the extension, if you want."
+    echo "Please enter you command(s) and program name :"
+    read -p '' input
+    echo -e "$input" >> /mnt/autoexec.bat
   fi
   umount /mnt/
   chown $(ls /home):$(ls /home) $(basename $zip .zip).rom
